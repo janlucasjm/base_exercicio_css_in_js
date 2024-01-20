@@ -20,7 +20,7 @@ export const Formulario = styled.form`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #a7727d;
+    background-color: ${(props) => props.theme.corPrincipal};
     content: '';
     opacity: 0.7;
   }
